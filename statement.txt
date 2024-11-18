@@ -1,0 +1,7 @@
+Heavily referenced TA slides (for Amdahl as well).
+Utilized chatGPT to debug the following for-loop (I kept getting a segmentation fault for an array out of bounds access):
+"
+for (int i = args->start; i < args->end; i++) {
+        array[i] *= 2;
+    }
+"
